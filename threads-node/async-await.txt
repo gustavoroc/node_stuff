@@ -1,6 +1,0 @@
-- The async-await is just a syntax sugar to promises. It calls
-the event loop scheduling the code to be executed in the LIBUV.
-
-" Through these APIs jobs are scheduled, buffered in the micro task queue,
- which will be tapped and executed by the event loop when idle.
-Thus the asynchronicity is in fact just scheduling."
